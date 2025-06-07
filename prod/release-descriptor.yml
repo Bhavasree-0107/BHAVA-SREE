@@ -1,0 +1,14 @@
+artifacts:
+  app_c_v1.tar.gz:
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    size: 0
+    type: file
+  app_c_v1.txt.txt:
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    size: 0
+    type: file
+descriptor_version: 1
+name: myapp
+summary: myapp release descriptor
+vendor: MyVendor
+version: 1.0.0

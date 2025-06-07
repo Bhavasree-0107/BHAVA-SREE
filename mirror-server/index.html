@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mirror Server Settings</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .dictionary-box {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 30px;
+      width: 100%;
+      max-width: 800px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+
+    dl {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      row-gap: 20px;
+      column-gap: 30px;
+    }
+
+    dt {
+      font-weight: bold;
+      color: #ffeb3b;
+    }
+
+    dd {
+      margin: 0;
+      color: #f0f0f0;
+      word-break: break-word;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mirror Server Configuration</h1>
+  <div class="dictionary-box">
+    <dl>
+      <dt>Server Name</dt>
+      <dd>Mirror Server</dd>
+
+      <dt>Protocol</dt>
+      <dd>HTTPS (TLS 1.3)</dd>
+
+      <dt>Certificate Auth</dt>
+      <dd>Enabled (mirror.crt)</dd>
+
+      <dt>Port</dt>
+      <dd>4443</dd>
+
+      <dt>SELinux</dt>
+      <dd>Enforcing</dd>
+
+      <dt>Authentication</dt>
+      <dd>Digest (Username/Password)</dd>
+
+      <dt>Repository Access</dt>
+      <dd>Project-Specific & Segregated</dd>
+
+      <dt>WAF Protection</dt>
+      <dd>Enabled (Web Application Firewall)</dd>
+
+      <dt>Mirror Location</dt>
+      <dd>TEST and PROD zones</dd>
+    </dl>
+  </div>
+
+  <footer>Mirror Server &copy; 2025 | Secure Continuous Delivery</footer>
+</body>
+</html>
